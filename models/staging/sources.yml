@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: raw
+    description: "Raw data sources for NYC taxi rides"
+    database: wide-saga-485120-u7
+    schema: module4hw_dataset
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
+      - name: fhv_tripdata
